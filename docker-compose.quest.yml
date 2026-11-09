@@ -1,0 +1,6 @@
+# Local-only endpoints for the Zcash developer regtest quest.
+services:
+  zebra:
+    ports: !override
+      - "127.0.0.1:29232:18232"
+      - "127.0.0.1:28080:8080"
